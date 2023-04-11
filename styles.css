@@ -59,22 +59,18 @@
      text-decoration: underline 2px;
  }
  
- div {
-     background-color: rgb(243, 243, 243);
-     text-align: center;
-     height: 100vh;
-     font-family: Arial, Helvetica, sans-serif;
- }
- 
  img {
      width: 200px;
      height: 200px;
      border-radius: 100%;
-     margin-bottom: 20px;
+     margin: 30px 0;
  }
  
  .section2 {
-     height: 100vh;
+     background-color: rgb(243, 243, 243);
+     text-align: center;
+     height: 90vh;
+     font-family: Arial, Helvetica, sans-serif;
      padding: 40px;
      align-items: center;
      justify-content: center;
@@ -87,12 +83,38 @@
      justify-content: space-between;
  }
  
- .items {}
- 
  .text {
      padding: 10px;
+     padding-top: 0px;
+     font-family: Arial, Helvetica, sans-serif;
  }
  
  .bg2 {
      background-color: rgb(155, 252, 255);
+ }
+ 
+ .section3 {
+     height: 50vh;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     background-color: antiquewhite;
+ }
+ 
+ .card {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 350px;
+     border-color: #000000;
+     background-color: aliceblue;
+     padding: 20px;
+     border-radius: 10px;
+     margin: 10px;
+ }
+ 
+ .pimg {
+     width: 100px;
+     height: 100px;
  }
