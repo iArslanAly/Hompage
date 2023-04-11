@@ -58,3 +58,24 @@ span {
 .btn:hover {
     text-decoration: underline 2px;
 }
+
+div {
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 250px;
+    border-radius: 100%;
+}
+
+.activities {
+    display: flex;
+    width: 700px;
+}
+
+.item {
+    flex: grow 2;
+}
